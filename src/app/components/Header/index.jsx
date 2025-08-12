@@ -42,7 +42,7 @@ export default function Header() {
         <Link className={b('link', { selectable: true })} href="/services">Услуги</Link>
         <Link href="/about">О компании</Link>
         <Link href="/delivery">Доставка и оплата</Link>
-        <Link href="/about">Гарантия и сервис</Link>
+        <Link href="/warranty">Гарантия и сервис</Link>
         <Link href="/contacts">Контакты</Link>
       </div>
     </header>

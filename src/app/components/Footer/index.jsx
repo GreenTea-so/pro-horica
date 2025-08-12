@@ -2,6 +2,7 @@ import logoImg from '../../images/logo.png';
 import bem from "../../utils/bem";
 import Link from 'next/link';
 import TelegramIcon from "../../svg/TelegramIcon.jsx";
+import WhatsAppIcon from '@/app/svg/WhatsAppIcon';
 import './index.scss';
 
 const b = bem('footer');
@@ -21,7 +22,7 @@ export default function Footer() {
         <Link href="/services">Услуги</Link>
         <Link href="/about">О компании</Link>
         <Link href="/delivery">Доставка и оплата</Link>
-        <Link href="/tst">Гарантия и сервис</Link>
+        <Link href="/warranty">Гарантия и сервис</Link>
         <Link href="/contacts">Контакты</Link>
       </div>
       <div className="d-flex flex-column gap-2">
@@ -31,7 +32,7 @@ export default function Footer() {
         <a href="mailto:vladislav-khv@mail.ru">vladislav-khv@mail.ru</a>
         <div className="d-flex gap-2">
           <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B79672863777&text&type=phone_number&app_absent=0+7967286-37-77" className={`${b('whatsapp')} ${b('icon')}`}>
-
+            <WhatsAppIcon />
           </a>
           <a href="https://t.me/+ZKQl6YrPbWVhYTcy" target="_blank" className={`${b('telegram')} ${b('icon')}`}>
             <TelegramIcon />
