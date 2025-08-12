@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import bem from "../../utils/bem";
-import WhatsAppIcon from "../../svg/WhatSappIcon.jsx";
 import TelegramIcon from "../../svg/TelegramIcon.jsx";
 import StarIcon from '@/app/svg/StarIcon.jsx';
 import logoImg from '../../images/logo.png';
@@ -32,7 +31,6 @@ export default function Header() {
         </div>
         <div className="d-flex gap-2">
           <div className={`${b('whatsapp')} ${b('icon')}`}>
-            <WhatsAppIcon />
           </div>
           <div className={`${b('telegram')} ${b('icon')}`}>
             <TelegramIcon />

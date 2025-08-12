@@ -1,7 +1,6 @@
 import logoImg from '../../images/logo.png';
 import bem from "../../utils/bem";
 import Link from 'next/link';
-import WhatsAppIcon from "../../svg/WhatSappIcon.jsx";
 import TelegramIcon from "../../svg/TelegramIcon.jsx";
 import './index.scss';
 
@@ -32,7 +31,6 @@ export default function Footer() {
         <a>8 800 000</a>
         <div className="d-flex gap-2">
           <div className={`${b('whatsapp')} ${b('icon')}`}>
-            <WhatsAppIcon />
           </div>
           <div className={`${b('telegram')} ${b('icon')}`}>
             <TelegramIcon />

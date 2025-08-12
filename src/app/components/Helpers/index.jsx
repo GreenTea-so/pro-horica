@@ -1,7 +1,6 @@
 'use client'
 
 import bem from "../../utils/bem";
-import WhatsAppIcon from "../../svg/WhatSappIcon.jsx";
 import TelegramIcon from "../../svg/TelegramIcon.jsx";
 import './index.scss';
 
@@ -30,7 +29,6 @@ export default function Helpers() {
           <span className="text">Соц. сети</span>
           <div className="d-flex gap-2">
             <div className={b('icon')}>
-              <WhatsAppIcon />
             </div>
             <div className={b('icon')}>
               <TelegramIcon />
