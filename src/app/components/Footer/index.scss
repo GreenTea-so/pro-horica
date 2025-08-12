@@ -1,0 +1,35 @@
+@import '../../variables/colors.scss';
+
+.footer {
+
+  &__logo {
+    width: 300px;
+    height: 180px;
+    object-fit: contain;
+  }
+
+  &__icon {
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+      transition: background-color 0.3s ease;
+
+
+    &:hover {
+      background-color: $red-crayon;
+    }
+  }
+
+  &__whatsapp {
+    background-color: $demeter-green;
+  }
+
+  &__telegram {
+    background-color: $structural-blue;
+  }
+
+}

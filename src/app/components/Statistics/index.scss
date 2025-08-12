@@ -1,0 +1,16 @@
+@import '../../variables/colors.scss';
+
+.statistics {
+
+  &__item {
+    height: 170px;
+    width: 400px;
+    background-color: $gray-color;
+    border-radius: 30px;
+  }
+
+  &__bottom {
+    font-size: 20px;
+  }
+
+}

@@ -1,0 +1,19 @@
+@import '../../variables/colors.scss';
+
+.our-advantages {
+
+  &__item {
+    background-color: $gray-color;
+    border-radius: 20px;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+     border: 0px solid $red-crayon;
+    transition: border-width 0.1s ease;
+
+
+    &:hover {
+      border-width: 1px;
+    }
+  }
+}

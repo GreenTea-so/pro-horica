@@ -1,0 +1,36 @@
+@import '../../variables/colors.scss';
+
+
+.header {
+  &__logo {
+    height: 50px;
+  }
+
+  &__icon {
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+
+    &:hover {
+      background-color: $red-crayon;
+    }
+  }
+
+  &__whatsapp {
+    background-color: $demeter-green;
+  }
+
+  &__telegram {
+    background-color: $structural-blue;
+  }
+
+  &__telephone {
+    color: $black;
+  }
+}

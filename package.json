@@ -1,5 +1,5 @@
 {
-  "name": "my-next-app2",
+  "name": "ProHoreca",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@pbe/react-yandex-maps": "^1.2.5",
+    "bootstrap": "^5.3.7",
+    "lodash": "^4.17.21",
+    "next": "15.4.5",
     "react": "19.1.0",
+    "react-alice-carousel": "^2.9.1",
     "react-dom": "19.1.0",
-    "next": "15.4.5"
+    "react-multi-carousel": "^2.8.6",
+    "sass": "^1.89.2"
   }
 }
