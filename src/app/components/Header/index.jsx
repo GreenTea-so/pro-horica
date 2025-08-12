@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import bem from "../../utils/bem";
 import TelegramIcon from "../../svg/TelegramIcon.jsx";
+import WhatsAppIcon from '@/app/svg/WhatsAppIcon';
 import StarIcon from '@/app/svg/StarIcon.jsx';
 import logoImg from '../../images/logo.png';
 import './index.scss';
@@ -30,6 +31,7 @@ export default function Header() {
         </div>
         <div className="d-flex gap-2">
           <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B79672863777&text&type=phone_number&app_absent=0+7967286-37-77" className={`${b('whatsapp')} ${b('icon')}`}>
+            <WhatsAppIcon />
           </a>
           <a href="https://t.me/+ZKQl6YrPbWVhYTcy" target="_blank" className={`${b('telegram')} ${b('icon')}`}>
             <TelegramIcon />

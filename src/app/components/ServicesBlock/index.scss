@@ -1,0 +1,15 @@
+.services {
+  
+  &__img {
+    width: 380px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: padding 0.3s ease;
+
+    &:hover {
+      padding: 10px;
+    }
+
+  }
+}
