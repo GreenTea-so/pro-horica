@@ -1,0 +1,13 @@
+@import '../../variables/colors.scss';
+
+.background {
+  height: 100px;
+
+  &__block {
+    position: absolute;
+    left: 0;
+    background-color: $red-crayon;
+    width: 100vw;
+    height: 100px;
+  }
+}

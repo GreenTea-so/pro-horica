@@ -9,7 +9,7 @@ const b = bem('yandex-map');
 export default function YandexMap() {
   return (
     <div className="my-5">
-      <span className="title mb-4">Филиалы в Москве и Сочи</span>
+      <span className="title mb-4">Наш выставочный зал в Красногорске</span>
       <YMaps>
         <div>
           <Map defaultState={{ center: [55.75, 37.57], zoom: 9 }} height={550}>
