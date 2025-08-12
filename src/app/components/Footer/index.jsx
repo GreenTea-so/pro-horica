@@ -1,8 +1,8 @@
 import logoImg from '../../images/logo.png';
 import bem from "../../utils/bem";
 import Link from 'next/link';
-import WhatsAppIcon from "../../svg/WhatSappIcon";
-import TelegramIcon from "../../svg/TelegramIcon";
+import WhatsAppIcon from "../../svg/WhatSappIcon.jsx";
+import TelegramIcon from "../../svg/TelegramIcon.jsx";
 import './index.scss';
 
 const b = bem('footer');

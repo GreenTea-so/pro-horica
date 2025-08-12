@@ -1,8 +1,8 @@
 'use client'
 
 import bem from "../../utils/bem";
-import WhatsAppIcon from "../../svg/WhatSappIcon";
-import TelegramIcon from "../../svg/TelegramIcon";
+import WhatsAppIcon from "../../svg/WhatSappIcon.jsx";
+import TelegramIcon from "../../svg/TelegramIcon.jsx";
 import './index.scss';
 
 const b = bem('helpers');

@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import bem from "../../utils/bem";
-import WhatsAppIcon from "../../svg/WhatSappIcon";
-import TelegramIcon from "../../svg/TelegramIcon";
-import StarIcon from '@/app/svg/StarIcon';
+import WhatsAppIcon from "../../svg/WhatSappIcon.jsx";
+import TelegramIcon from "../../svg/TelegramIcon.jsx";
+import StarIcon from '@/app/svg/StarIcon.jsx';
 import logoImg from '../../images/logo.png';
 import './index.scss';
 
