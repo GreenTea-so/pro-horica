@@ -1,9 +1,23 @@
+@import '../../variables/colors.scss';
+
 .about-company {
+  display: flex;
+  gap: 10px;
+  margin: 40px 0;
+
+
+  @media (max-width: $small) {
+    flex-direction: column;
+  }
 
   &__img {
     max-width: 620px;
     height: 440px;
     object-fit: contain;
     border-radius: 20px;
+
+    @media (max-width: $xmini) {
+      height: 380px;
+    } 
   }
 }
