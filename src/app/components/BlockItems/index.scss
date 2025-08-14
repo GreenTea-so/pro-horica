@@ -1,0 +1,21 @@
+@import '../../variables/colors.scss';
+
+.block-items {
+
+  &__item {
+    background-color: $gray-color;
+    border-radius: 20px;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+     border: 0px solid $red-crayon;
+    transition: border-width 0.1s ease;
+    width: 100%;
+    max-width: 45%;
+
+    &:hover {
+      border-width: 1px;
+    }
+  }
+}
+  

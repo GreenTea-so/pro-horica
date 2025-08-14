@@ -1,9 +1,10 @@
-import AboutCompany from "@/app/components/AboutCompany";
+import ImageAndText from "@/app/components/ImageAndText";
+import image from '@/app/images/service/image6.png';
 
 export default function Supply() {
   return (
     <main>
-      <AboutCompany />
+      <ImageAndText src={image.src} />
     </main>
   );
 }
