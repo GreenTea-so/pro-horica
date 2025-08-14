@@ -66,6 +66,10 @@ nextjs-portal {
   font-size: 48px;
   font-weight: 600;
   color: $black;
+
+  @media (max-width: $xmini) {
+    font-size: 34px;
+  } 
 }
 
 .sub-title {

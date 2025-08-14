@@ -12,6 +12,7 @@
     transition: border-width 0.1s ease;
     width: 100%;
     max-width: 45%;
+    min-width: 300px;
 
     &:hover {
       border-width: 1px;

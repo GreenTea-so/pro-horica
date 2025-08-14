@@ -7,7 +7,7 @@ export default function ImageAndText(props) {
   const { src ,title, text } = props;
 
   return (
-    <div className="d-flex gap-3 my-5">
+    <div className={b('')}>
       <img className={b('img')} src={src} />
       <div className="d-flex flex-column p-3">
         <span className="title mb-4">{title}</span>

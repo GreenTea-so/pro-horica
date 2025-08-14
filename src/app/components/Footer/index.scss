@@ -2,6 +2,17 @@
 
 .footer {
 
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+
+  @media (max-width: $xsmall) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
   &__logo {
     width: 300px;
     height: 180px;
@@ -9,8 +20,8 @@
   }
 
   &__icon {
-    width: 41px;
-    height: 41px;
+    width: 41px !important;
+    height: 41px !important;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -21,6 +32,56 @@
 
     &:hover {
       background-color: $red-crayon;
+    }
+  }
+
+  &__clients {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    @media (max-width: $xsmall) {
+      align-items: center;
+      width: 100%;
+    }
+
+    a {
+      @media (max-width: $xsmall) {
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+
+        &:hover {
+          background-color: $red-crayon;
+          color: $white;
+        }
+      }
+    }
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    @media (max-width: $xsmall) {
+      align-items: center;
+      width: 100%;
+    }
+
+    a {
+      @media (max-width: $xsmall) {
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+
+        &:hover {
+          background-color: $red-crayon;
+          color: $white;
+        }
+      }
     }
   }
 

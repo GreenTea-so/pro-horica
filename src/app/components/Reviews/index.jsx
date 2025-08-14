@@ -42,7 +42,7 @@ const responsive = {
   },
   minimobile: {
     breakpoint: { max: 580, min: 0 },
-    items: 1.2
+    items: 1
   }
 };
 

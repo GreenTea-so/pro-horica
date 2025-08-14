@@ -1,8 +1,12 @@
+"use client"
+
 import Link from 'next/link';
+import { useState } from 'react';
 import bem from "../../utils/bem";
 import TelegramIcon from "../../svg/TelegramIcon.jsx";
 import WhatsAppIcon from '@/app/svg/WhatsAppIcon';
 import StarIcon from '@/app/svg/StarIcon.jsx';
+import MenuIcon from '@/app/svg/MenuIcon';
 import logoImg from '../../images/logo.png';
 import './index.scss';
 
@@ -10,9 +14,16 @@ import './index.scss';
 const b = bem('header');
 
 export default function Header() {
+
+  const [isShowPopup, setIsShowPopup] = useState(false);
+
+  const handleClick = () => {
+    setIsShowPopup(!isShowPopup);
+  }
+
   return (
     <header className="d-flex justify-content-between align-items-center">
-      <div className="d-flex justify-content-between align-items-center gap-4">
+      <div className={b('block')}>
         <Link href="/">
           <img className={b('logo')} src={logoImg.src} />
         </Link>
@@ -38,12 +49,21 @@ export default function Header() {
           </a>
         </div>
       </div>
-      <div className="d-flex justify-content-center flex-wrap gap-4">
+      <div className={b('block', { wrap: true })}>
         <Link className={b('link', { selectable: true })} href="/services">Услуги</Link>
         <Link href="/about">О компании</Link>
         <Link href="/delivery">Доставка и оплата</Link>
         <Link href="/warranty">Гарантия и сервис</Link>
         <Link href="/contacts">Контакты</Link>
+      </div>
+
+      <div className={b('block-mobile')}>
+        <Link href="/">
+          <img className={b('logo')} src={logoImg.src} />
+        </Link>
+        <button className={b('btn')} onClick={handleClick} >
+          <MenuIcon />
+        </button>
       </div>
     </header>
   );
