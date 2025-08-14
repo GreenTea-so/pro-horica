@@ -75,11 +75,11 @@ export default function Header() {
           </button>
         </div>
         <div className="d-flex flex-column gap-3 align-items-center my-2">
-          <Link href="/services">Услуги</Link>
-          <Link href="/about">О компании</Link>
-          <Link href="/delivery">Доставка и оплата</Link>
-          <Link href="/warranty">Гарантия и сервис</Link>
-          <Link href="/contacts">Контакты</Link>
+          <Link onClick={handleClick} href="/services">Услуги</Link>
+          <Link  onClick={handleClick} href="/about">О компании</Link>
+          <Link  onClick={handleClick} href="/delivery">Доставка и оплата</Link>
+          <Link  onClick={handleClick} href="/warranty">Гарантия и сервис</Link>
+          <Link  onClick={handleClick} href="/contacts">Контакты</Link>
         </div>
         <div className="d-flex flex-column align-items-center gap-3 mt-4">
           <a target="_blank" className="d-flex align-items-center justify-content-center gap-2" href="https://www.avito.ru/brands/1158fda1b4e16f2991f5c31bf34320bd/all/business360/oborudovanie_dlya_biznesa?gdlkerfdnwq=101&shopId=7881631&params%5B156912%5D=3266344&page_from=from_item_card&iid=7577311749&sellerId=c02853dea42ad9a234010a5cd22709d9">
