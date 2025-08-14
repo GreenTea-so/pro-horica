@@ -6,7 +6,7 @@ const b = bem('about-company');
 
 export default function AboutCompany() {
   return (
-    <div className="d-flex gap-3 my-5">
+    <div className={b('')}>
       <img className={b('img')} src={image.src} />
       <div className="d-flex flex-column p-3">
         <span className="title mb-4">О компании</span>
