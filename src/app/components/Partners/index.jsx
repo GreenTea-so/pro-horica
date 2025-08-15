@@ -48,7 +48,7 @@ export default function Partners() {
         <img className={b('img')} src={image3.src} draggable={false} />
         <img className={b('img')} src={image4.src} draggable={false} />
         <img className={b('img')} src={logoImg.src} draggable={false} />
-      </Carousel>;
+      </Carousel>
     </div>
   );
 }

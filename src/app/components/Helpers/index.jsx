@@ -11,7 +11,7 @@ export default function Helpers() {
   return (
     <div className="my-5">
       <span className="title mb-4">Наши менеджеры будут рады помочь вам</span>
-      <div className="d-flex justify-content-center flex-wrap gap-5">
+      <div className="d-flex flex-wrap gap-5">
         <div className="d-flex flex-column">
           <span className="text">Время работы</span>
           <span className="sub-title">Мск: 10:00 — 19:00 ежедневно</span>
