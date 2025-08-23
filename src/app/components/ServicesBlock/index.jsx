@@ -33,26 +33,6 @@ export default function ServicesBlock() {
           <img className={b('img')} src={image2.src} />
           <span className="sub-title">Поставка</span>
         </Link>
-        <Link href="/services/ransom" className={"d-flex flex-column gap-1"}>
-          <img className={b('img')} src={image6.src} />
-          <span className="sub-title">Выкуп</span>
-        </Link>
-        <Link href="/services/moving" className={"d-flex flex-column gap-1"}>
-          <img className={b('img')} src={image3.src} />
-          <span className="sub-title">Переезд</span>
-        </Link>
-        <Link href="/services/dismantling-installation" className={"d-flex flex-column gap-1"}>
-          <img className={b('img')} src={image7.src} />
-          <span className="sub-title">Демонтаж/Монтаж</span>
-        </Link>
-        <Link href="/services/finishing" className={"d-flex flex-column gap-1"}>
-          <img className={b('img')} src={image5.src} />
-          <span className="sub-title">Отделка</span>
-        </Link>
-        <Link href="/services/opening" className={"d-flex flex-column gap-1"}>
-          <img className={b('img')} src={image1.src} />
-          <span className="sub-title">Открытие объекта</span>
-        </Link>
       </div>
     </div>
   );

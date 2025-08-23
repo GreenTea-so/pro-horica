@@ -51,7 +51,7 @@ export default function Reviews() {
     <div className="my-5 d-flex flex-column align-items-center">
       <span className="title mb-4 w-100">Отзывы</span>
       <div className={b('block')}>
-         <Carousel responsive={responsive} arrows={false} infinite={true}>
+         <Carousel responsive={responsive} arrows={true} infinite={true}>
             <div className={b('item')}>
                <img className={b('img')} src={image14.src} draggable={false} />
             </div>

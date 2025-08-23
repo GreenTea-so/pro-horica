@@ -40,7 +40,7 @@ const responsive = {
 export default function Partners() {
   return (
     <div className="my-5">
-      <span className="title mb-4">Наши партнеры</span>
+      <span className="title mb-4 w-100">Наши партнеры</span>
       <Carousel responsive={responsive} arrows={false} infinite={true} autoPlay={true} autoPlaySpeed={2000}>
         <img className={b('img')} src={image1.src} draggable={false} />
         <img className={b('img')} src={image2.src} draggable={false} />

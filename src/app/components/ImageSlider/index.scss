@@ -1,0 +1,31 @@
+@import '../../variables/colors.scss';
+
+
+.image-slider {
+
+  &__block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__main-img {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  &__img {
+    width: 120px;
+    min-width: 120px;
+    height: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+
+    &_selected {
+      border: 2px solid $red-crayon;
+    }
+  }
+}
