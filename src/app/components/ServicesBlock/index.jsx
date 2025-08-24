@@ -29,9 +29,9 @@ export default function ServicesBlock() {
           <img className={b('img')} src={image4.src} />
           <span className="sub-title">Проектирование</span>
         </Link>
-        <Link href="/services/moving" className={"d-flex flex-column gap-1"}>
-          <img className={b('img')} src={image2.src} />
-          <span className="sub-title">Поставка</span>
+        <Link href="/services/ransom" className={"d-flex flex-column gap-1"}>
+          <img className={b('img')} src={image6.src} />
+          <span className="sub-title">Выкуп</span>
         </Link>
       </div>
     </div>
