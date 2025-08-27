@@ -1,5 +1,6 @@
 import Helpers from "../components/Helpers";
 import BlockItems from "../components/BlockItems";
+import Background from "../components/Background";
 
 const items = [
   {
@@ -15,7 +16,8 @@ export default function Warranty() {
   return (
     <main>
       <BlockItems title="Срок гарантии" items={items} />
-      <span className="sub-title mb-3">Условия гарантии</span>
+      <Background  color="#292D38" />
+      <span className="sub-title mt-3 mb-3">Условия гарантии</span>
       <ul className="d-flex flex-column gap-2">
         <li className="text">1.Гарантийный ремонт вышедшего из строя оборудования производится бесплатно в период действия гарантийного срока, если установлено, что неисправность вызвана браком завода-изготовителя</li>
         <li className="text">2.Гарантия не охватывает дефектов ламп, стекол, покраски, корпусов, замков, крепления дверей и расходных материалов, резиновых уплотнений, ножей, решеток, сменных насадок, фильтров и др.</li>
@@ -60,6 +62,7 @@ export default function Warranty() {
           </ul>
         </li>
       </ul>
+      <Background />
       <span className="sub-title mb-3">Сервисное обслуживание</span>
       <p className="text">Компания "ProHoreca" предоставляет все виды сервисного обслуживания и ремонта холодильного, торгового, технологического, пекарского, профессионального оборудования.</p>
       <span className="sub-title mb-3">Наши преимущества</span>
