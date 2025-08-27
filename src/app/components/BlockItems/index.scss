@@ -8,7 +8,8 @@
     padding: 15px 30px;
     display: flex;
     flex-direction: column;
-     border: 0px solid $red-crayon;
+    justify-content: center;
+    border: 0px solid $red-crayon;
     transition: border-width 0.1s ease;
     width: 100%;
     max-width: 45%;
