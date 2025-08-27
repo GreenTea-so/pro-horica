@@ -13,7 +13,7 @@ const items = [
 export default function Delivery() {
   return (
     <main>
-      <BlockItems title="Срок гарантии" items={items} />
+      <BlockItems title="Доставка возможна:" items={items} />
       <span className="title mb-3">Условия оплаты</span>
       <p className="sub-title mb-4">Уважаемые Клиенты, свой заказ Вы можете оплатить следующими удобными для вас способами!</p>
       <span className="sub-title">Для физических лиц:</span>
