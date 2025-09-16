@@ -1,8 +1,14 @@
 import ImageAndText from "@/app/components/ImageAndText";
+import ImageSlider from '@/app/components/ImageSlider';
 import BlockItems from "@/app/components/BlockItems";
 import Helpers from "@/app/components/Helpers";
 import Background from "@/app/components/Background";
 import image from '@/app/images/service/image8.jpg';
+import image1 from '../../images/image1.jpg';
+import image6 from '../../images/image6.jpg';
+import image7 from '../../images/image7.jpg';
+import image8 from '../../images/image8.jpg';
+import image9 from '../../images/image9.jpg';
 
 const title1 = 'Оборудование магазинов и ресторанов под ключ';
 const title2 = 'Основные этапы сотрудничества:';
@@ -34,10 +40,16 @@ const list2 = [
   }
 ];
 
+const listImage = [image.src, image6.src, image7.src, image8.src, image9.src, image1.src];
+
 export default function EquippingEnterprises() {
   return (
     <main>
-      <ImageAndText src={image.src} title={title1} text={text} />
+      <div className="d-inline-flex flex-column p-3 mt-3">
+        <span className="title mb-4">{title1}</span>
+        <span className="mb-3 text">{text}</span>
+      </div>
+      <ImageSlider list={listImage} />
       <BlockItems title={title2} items={list1} />
       <BlockItems title={title3} items={list2} />
       <Background />

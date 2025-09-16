@@ -11,7 +11,7 @@ export default function RansomBlock() {
         <div className={b('item')}>
           <span className="sub-title">1. Заявка</span>
           <span className="text">
-            Оставьте заявку  по телефону <a href="tel:+79957862000">+7 995 786-20-00</a> или на почту....
+            Оставьте заявку  по телефону <a href="tel:+79957862000">+7 995 786-20-00</a>
           </span>
         </div>
         <div className={b('item')}>

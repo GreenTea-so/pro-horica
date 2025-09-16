@@ -5,7 +5,9 @@ import './index.scss';
 
 const b = bem('banner-design');
 
-export default function BannerDesign() {
+export default function BannerDesign(props) {
+  const { hiddenButton } = props;
+
   return (
     <div className={`${b('')} mb-5 mt-2`}>
       <img className={b('img')} src={image.src} />
@@ -16,7 +18,7 @@ export default function BannerDesign() {
         <span className="sub-title text-white">— Дизайн проект</span>
         <div className="d-flex align-items-center justify-content-between mt-2 flex-wrap h-100">
           <a className="title text-white" href="tel:+79672863777">+7 (967) 286-37-77</a>
-          <Link className={b('btn')} href="/services/design">Подробнее об услуге     →</Link>
+          {!hiddenButton && <Link className={b('btn')} href="/services/design">Подробнее об услуге     →</Link>}
         </div>
       </div>
     </div>

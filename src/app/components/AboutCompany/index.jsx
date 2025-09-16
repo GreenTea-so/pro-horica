@@ -17,7 +17,7 @@ const list = [image1.src, image6.src, image7.src, image8.src, image9.src];
 export default function AboutCompany() {
   return (
     <div className={b('')}>
-      <ImageSlider list={list}/>
+      <ImageSlider list={list} />
       <div className="d-flex flex-column p-3">
         <span className="title mb-4">О компании</span>
         <span className="mb-3 text">Наше холодильное оборудование — это надежное, энергоэффективное и долговечное решение для бизнеса. Мы предлагаем современные модели, которые помогают оптимизировать работу ресторанов, магазинов и производственных предприятий.</span>
