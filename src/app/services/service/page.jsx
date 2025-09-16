@@ -4,6 +4,8 @@ import OurAdvantages from "@/app/components/OurAdvantages";
 import Background from "@/app/components/Background";
 import Helpers from "@/app/components/Helpers";
 import image from '@/app/images/service/image9.jpg';
+import Header from "@/app/components/Header";
+import Footer from "@/app/components/Footer";
 
 const title1 = 'Сервисное Обслуживание';
 const title2 = 'Мы обеспечиваем';
@@ -30,12 +32,25 @@ const list = [
 
 export default function Service() {
   return (
-    <main>
-      <ImageAndText src={image.src} title={title1} text={text} />
-      <Background />
-      <BlockItems title={title2} items={list} />
-      <OurAdvantages />
-      <Helpers />
-    </main>
+    <html>
+      <meta
+        name="keywords"
+        content="холодильник для напитков, холодильник витрина, холодильник для магазина, витрина для магазина, витринный холодильник, холодильник витрина, холодильник для напитков, витрина кондитерская, витрина горка, минибар, холодильник нерж, холодильник из нержавейки, холодильник из нержавеющей стали, холодильник, шкаф холодильный, витрина, витринный холодильник, холодильная витрина, барный холодильник, холодильник для напитков, морозилка, морозильная камера, холодильное оборудование"
+      />
+      <title>Сервисное обслуживание</title>
+      <body>
+        <div id="body">
+          <Header />
+            <main>
+            <ImageAndText src={image.src} title={title1} text={text} />
+            <Background />
+            <BlockItems title={title2} items={list} />
+            <OurAdvantages />
+            <Helpers />
+          </main>
+          <Footer />
+        </div>
+      </body>
+    </html>
   );
 }

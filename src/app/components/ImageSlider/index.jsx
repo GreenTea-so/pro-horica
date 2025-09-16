@@ -37,7 +37,7 @@ export default function ImageSlider(props) {
       </div>
       <div className="d-flex gap-3 overflow-auto">
         {list.map((item, index) => (
-          <img className={b('img', { selected: index === selectedImage })} src={item} onClick={() => setSelectedImage(index)} />
+          <img key={index} className={b('img', { selected: index === selectedImage })} src={item} onClick={() => setSelectedImage(index)} />
         ))}
       </div>
     </div>
