@@ -24,7 +24,7 @@ export default function Helpers() {
           <span className="text">Телефон</span>
           <a className="sub-title" href="tel:+79672863777">+7 967 286-37-77</a>
           <span className="text">Почта</span>
-          <a className="sub-title" href="mailto:vladislav-khv@mail.ru">vladislav-khv@mail.ru</a>
+          <a className="sub-title" href="mailto:ProRest1@yandex.ru">ProRest1@yandex.ru</a>
         </div>
         <div className="d-flex flex-column">
           <span className="text">Соц. сети</span>

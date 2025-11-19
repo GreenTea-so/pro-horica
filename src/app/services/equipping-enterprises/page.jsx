@@ -58,13 +58,16 @@ export default function EquippingEnterprises() {
             <div className="d-inline-flex flex-column p-3 mt-3">
               <span className="title mb-4">{title1}</span>
               <span className="mb-3 text">{text}</span>
+              <span className="text">
+                ОСвяжитесь с нами по телефону: <a href="tel:+79672863777">+7 967 286-37-77</a>
+              </span>
             </div>
             <ImageSlider list={listImage} />
             <BlockItems title={title2} items={list1} />
             <BlockItems title={title3} items={list2} />
             <Background />
             <span className="sub-title mb-3 mt-4">Если у вас есть вопросы – свяжитесь с нашими специалистами по телефону или оставляйте заявку на сайте. Заказав услугу комплексного оснащения, вы получаете дополнительную скидку на оборудование. Мы работаем с холодильным оборудованием оснащенным встроенным, и выносным холодоснабжением.</span>
-            <span className="sub-title mb-3">Если Вы хотите заказать расчёт стоимости, или у вас есть вопросы по услуге – свяжитесь с нашим специалистом по телефону <a  href="tel:+79672863777">+7 967 286-37-77</a></span>
+            <span className="sub-title mb-3">Если Вы хотите заказать расчёт стоимости, или у вас есть вопросы по услуге – свяжитесь с нашим специалистом по телефону <a href="tel:+79672863777">+7 967 286-37-77</a></span>
             <Background color="#292D38" />
             <Helpers />
           </main>

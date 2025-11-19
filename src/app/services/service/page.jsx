@@ -9,7 +9,7 @@ import Footer from "@/app/components/Footer";
 
 const title1 = 'Сервисное Обслуживание';
 const title2 = 'Мы обеспечиваем';
-const text = 'Компания "ProHoreca" предоставляет все виды сервисного обслуживания и ремонта холодильного, торгового, технологического, пекарского, профессионального оборудования.\nМонтаж/ввод в эксплуатацию\nТехническое обслуживание\nДиагностика\nГарантийный ремонт\nПокрасочные работы';
+const text = 'Компания "ProHoreca" предоставляет все виды сервисного обслуживания и ремонта холодильного, торгового, технологического, пекарского, профессионального оборудования. Монтаж/ввод в эксплуатацию - Техническое обслуживание - Диагностика - Гарантийный ремонт - Покрасочные работы.';
 
 
 const list = [
@@ -41,8 +41,8 @@ export default function Service() {
       <body>
         <div id="body">
           <Header />
-            <main>
-            <ImageAndText src={image.src} title={title1} text={text} />
+          <main>
+            <ImageAndText src={image.src} title={title1} text={text} number="7 967 251-13-58" />
             <Background />
             <BlockItems title={title2} items={list} />
             <OurAdvantages />

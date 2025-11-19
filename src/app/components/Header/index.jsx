@@ -39,7 +39,7 @@ export default function Header() {
           <span className={b('telephone')}>5.0 на Авито</span>
         </a>
         <div className="d-flex flex-column gap-1">
-          <a className={b('telephone')} href="tel:+79672863777">+7 967 286-37-77</a>
+          <a className={b('telephone')} href="tel:+79362306060">+7 936 230-60-60</a>
         </div>
         <div className="d-flex gap-2">
           <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B79672863777&text&type=phone_number&app_absent=0+7967286-37-77" className={`${b('whatsapp')} ${b('icon')}`}>
@@ -76,10 +76,10 @@ export default function Header() {
         </div>
         <div className="d-flex flex-column gap-3 align-items-center my-2">
           <Link onClick={handleClick} href="/services">Услуги</Link>
-          <Link  onClick={handleClick} href="/about">О компании</Link>
-          <Link  onClick={handleClick} href="/delivery">Доставка и оплата</Link>
-          <Link  onClick={handleClick} href="/warranty">Гарантия и сервис</Link>
-          <Link  onClick={handleClick} href="/contacts">Контакты</Link>
+          <Link onClick={handleClick} href="/about">О компании</Link>
+          <Link onClick={handleClick} href="/delivery">Доставка и оплата</Link>
+          <Link onClick={handleClick} href="/warranty">Гарантия и сервис</Link>
+          <Link onClick={handleClick} href="/contacts">Контакты</Link>
         </div>
         <div className="d-flex flex-column align-items-center gap-3 mt-4">
           <a target="_blank" className="d-flex align-items-center justify-content-center gap-2" href="https://www.avito.ru/brands/1158fda1b4e16f2991f5c31bf34320bd/all/business360/oborudovanie_dlya_biznesa?gdlkerfdnwq=101&shopId=7881631&params%5B156912%5D=3266344&page_from=from_item_card&iid=7577311749&sellerId=c02853dea42ad9a234010a5cd22709d9">
@@ -93,7 +93,7 @@ export default function Header() {
             <span className={b('telephone')}>5.0 на Авито</span>
           </a>
           <div className="d-flex flex-column gap-1 w-100">
-            <a className={b('telephone')} href="tel:+79672863777">+7 967 286-37-77</a>
+            <a className={b('telephone')} href="tel:+79362306060">+7 936 230-60-60</a>
           </div>
           <div className="d-flex gap-2">
             <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B79672863777&text&type=phone_number&app_absent=0+7967286-37-77" className={`${b('whatsapp')} ${b('icon')}`}>
