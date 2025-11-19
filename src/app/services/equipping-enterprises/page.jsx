@@ -59,7 +59,7 @@ export default function EquippingEnterprises() {
               <span className="title mb-4">{title1}</span>
               <span className="mb-3 text">{text}</span>
               <span className="text">
-                ОСвяжитесь с нами по телефону: <a href="tel:+79672863777">+7 967 286-37-77</a>
+                Свяжитесь с нами по телефону: <a href="tel:+79672863777">+7 967 286-37-77</a>
               </span>
             </div>
             <ImageSlider list={listImage} />
